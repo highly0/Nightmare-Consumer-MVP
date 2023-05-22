@@ -1,0 +1,17 @@
+
+svg {
+  viewport-fill: fb-cyan;
+}
+
+.large-value {
+  font-family: Seville-Book;
+  font-size: 100;
+  fill: #F80070;
+}
+
+.nightmareSwitch {
+  font-family: Seville-Book;
+  font-size: 25;
+  fill: #ffffff;
+  text-length: 32;
+}

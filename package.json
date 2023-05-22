@@ -1,0 +1,24 @@
+{
+  "fitbit": {
+    "appType": "app",
+    "appDisplayName": "Cortisol-Consumer",
+    "wipeColor": "#e91e63",
+    "requestedPermissions": [
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "atlas"
+    ],
+    "appUUID": "f3947b65-956e-4a20-a08c-f9b39341dc4f"
+  },
+  "dependencies": {
+    "@fitbit/sdk": "^5.0.2",
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fp-ts": "^2.8.2",
+    "glob-parent": "^6.0.1",
+    "io-ts": "^2.2.10"
+  },
+  "overrides": {
+    "glob-parent": "$glob-parent"
+  }
+}
